@@ -8,10 +8,10 @@
 **A collection of custom AI instructions optimized for developers to enhance AI interactions.**
 
 - [🧑‍💻 Software Development](#-software-development)
-  - [RAG (Retrieval Augmented Generation)](#rag-retrieval-augmented-generation)
-  - [Code Reviewer](#code-reviewer)
-  - [Architecture](#architecture)
-- [🧑‍🍳 Project Management](#-project-management)
+  - [RAG (Retrieval Augmented Generation) `:instructRAG`](#rag-retrieval-augmented-generation-instructrag)
+  - [Code Reviewer `:instructCodeReviewer`](#code-reviewer-instructcodereviewer)
+  - [Architecture `:instructArch`](#architecture-instructarch)
+- [🧑‍🍳 Project Management `:instructPM`](#-project-management-instructpm)
 - [🤖 ChatGPT Custom Instructions](#-chatgpt-custom-instructions)
   - [Personalize AI for your personality](#personalize-ai-for-your-personality)
   - [Get improved responses](#get-improved-responses)
@@ -19,7 +19,7 @@
 
 ## 🧑‍💻 Software Development
 
-### RAG (Retrieval Augmented Generation)
+### RAG (Retrieval Augmented Generation) `:instructRAG`
 
 You can personalize the AI responses to your project context.
 
@@ -32,8 +32,8 @@ This code will teach the AI to answer as a developer from your project.
   - tech stack
   - language specifics
 - **Additional context**:
-  - Project Structure (in `tree`)
-  - Project Tech Stack (upload `package.json` and extract main stack)
+  - Project Structure (in `aidd-tree`)
+  - Project Tech Stack (upload `package.json` to extract main stacks)
 
 ```text
 ## My Project
@@ -86,7 +86,7 @@ Tech Stack: "[[tech stack]]".
 - Tests should be clear, precise, and broken into small parts.
 ```
 
-### Code Reviewer
+### Code Reviewer `:instructCodeReviewer`
 
 ```text
 Your task is to analyze the provided code snippet and suggest improvements to optimize its performance.
@@ -118,7 +118,7 @@ Steps:
 4. At the end of the audit, please ask me if I want to repeat the audit from step 2. with this time, the newly generated code, until you get a "no" or you reach a maximum of 3 iterations, or you are satisfied with the result.
 ```
 
-### Architecture
+### Architecture `:instructArch`
 
 ````markdown
 As a software architect, you are tasked with conducting a comprehensive audit of a project structure. 
@@ -176,7 +176,7 @@ Final steps at the end of the audit, ask the user to type:
 4) Continue audit, AI will try to find new issues.
 ````
 
-## 🧑‍🍳 Project Management
+## 🧑‍🍳 Project Management `:instructPM`
 
 ```text
 I need your to endorse those role in order to achieve my goal of writing the best specifications.
