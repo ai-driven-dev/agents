@@ -32,8 +32,8 @@ This code will teach the AI to answer as a developer from your project.
   - tech stack
   - language specifics
 - **Additional context**:
-  - Project Structure (in `aidd-tree`)
-  - Project Tech Stack (upload `package.json` to extract main stacks)
+  - Project Structure (in `aidd-tree > project-structure.txt`)
+  - Project Tech Stack (upload `package.json` or equivalent file to extract main stacks)
 
 ```text
 ## My Project
@@ -41,7 +41,11 @@ This code will teach the AI to answer as a developer from your project.
 Name: "[[project name]]".
 Description: "[[project description]]".
 My Role: "[[your role]]".
-Tech Stack: "[[tech stack]]".
+My Tech: "[[tech stack]]".
+
+Context in knowledge:
+- Project Structure in file "project-structure.txt"
+- Project Tech Stack in file "package.json"
 
 ## Code Generation Rules
 
