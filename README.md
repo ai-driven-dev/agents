@@ -268,6 +268,8 @@ Adaptations
 - Key points first
 - Avoid long responses
 - Skip unnecessary context
+- Use bullet points to summarize
+- Be aware of ADD and keep responses concise
 ```
 
 ### Jailbreak ChatGPT using DAN prompt `:instructDan`
