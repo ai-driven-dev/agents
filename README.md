@@ -7,15 +7,16 @@
 
 **A collection of custom AI instructions optimized for developers to enhance AI interactions.**
 
-- [🧑‍💻 Software Development](#-software-development)
-  - [RAG (Retrieval Augmented Generation) `:instructRAG`](#rag-retrieval-augmented-generation-instructrag)
-  - [Code Reviewer `:instructCodeReviewer`](#code-reviewer-instructcodereviewer)
-  - [Architecture `:instructArch`](#architecture-instructarch)
-- [🧑‍🍳 Project Management `:instructPM`](#-project-management-instructpm)
-- [🤖 ChatGPT Custom Instructions](#-chatgpt-custom-instructions)
-  - [Personalize AI for your personality](#personalize-ai-for-your-personality)
-  - [Get improved responses](#get-improved-responses)
-  - [Jailbreak ChatGPT using DAN prompt `:instructDan`](#jailbreak-chatgpt-using-dan-prompt-instructdan)
+- [👤 AI-Driven Dev {Instructions}](#-ai-driven-dev-instructions)
+  - [🧑‍💻 Software Development](#-software-development)
+    - [RAG (Retrieval Augmented Generation) `:instructRAG`](#rag-retrieval-augmented-generation-instructrag)
+    - [Code Reviewer `:instructCodeReviewer`](#code-reviewer-instructcodereviewer)
+    - [Architecture `:instructArch`](#architecture-instructarch)
+  - [🧑‍🍳 Project Management `:instructPM`](#-project-management-instructpm)
+  - [🤖 ChatGPT Custom Instructions](#-chatgpt-custom-instructions)
+    - [Personalize AI for your personality](#personalize-ai-for-your-personality)
+    - [Get improved responses](#get-improved-responses)
+    - [Jailbreak ChatGPT using DAN prompt `:instructDan`](#jailbreak-chatgpt-using-dan-prompt-instructdan)
 
 ## 🧑‍💻 Software Development
 
@@ -46,6 +47,10 @@ My Tech: "[[tech stack]]".
 Context in knowledge:
 - Project Structure in file "project-structure.txt"
 - Project Tech Stack in file "package.json"
+
+## Guidelines
+
+- Always list solutions first, then discuss them. Finally, provide the answer.
 
 ## Code Generation Rules
 
