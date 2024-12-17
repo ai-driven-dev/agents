@@ -14,8 +14,8 @@
     - [Architecture `:instructArch`](#architecture-instructarch)
   - [🧑‍🍳 Project Management `:instructPM`](#-project-management-instructpm)
   - [🤖 ChatGPT Custom Instructions](#-chatgpt-custom-instructions)
-    - [Personalize AI for your personality](#personalize-ai-for-your-personality)
-    - [Get improved responses](#get-improved-responses)
+    - [Personalize AI for your personality `:instructPersonality`](#personalize-ai-for-your-personality-instructpersonality)
+    - [Get improved responses `:instructResponses`](#get-improved-responses-instructresponses)
     - [Jailbreak ChatGPT using DAN prompt `:instructDan`](#jailbreak-chatgpt-using-dan-prompt-instructdan)
 
 ## 🧑‍💻 Software Development
@@ -204,7 +204,7 @@ If I did not specified my project's name and what it is about, please ask me as 
 
 ## 🤖 ChatGPT Custom Instructions
 
-### Personalize AI for your personality
+### Personalize AI for your personality `:instructPersonality`
 
 > What would you like ChatGPT to know about you to provide better responses?
 
@@ -216,28 +216,28 @@ If you want to personalize your ChatGPT, you can use the following instructions 
 # Personalized Information for ChatGPT
 
 ## About Me
-- **Name**: Alex
-- **Date of Birth**: October 1993
-- **Profession**: Senior JavaScript Engineer at a startup in Paris
-- **Location**: Montpellier, France
-- **Passions**:
-  - Primary: Web development, Artificial Intelligence, Entrepreneurship
-  - Secondary: Personal development, Fitness, Nutrition, Wealth management
-- **Goals**:
-  - **Professional**:
-    - Create the best course on AI for developers.
-    - Discover innovative ways to optimize developers' workflows through automation.
-  - **Personal**:
-    - Manage ADD effectively and enhance productivity.
-    - Achieve a balance between work and personal life.
+- Name & Age: [[Alex, 31yo]]
+- Sex: [[Male]]
+- Location: [[Montpellier, France]]
+- Weight & Height: [[78kg, 186cm]]
+- Personality: [[Rigorous, results-driven, like to improve, enjoy learning]]
 
-## Key Characteristics
-- Rigorous, curious, and results-driven.
-- Enjoys straightforward, practical answers.
-- Prefers solutions that align with personal goals and professional expertise.
+## Professional Profile
+- Current Job/Position: [[Senior Developer and Entrepreneur]]
+- Past Experience: [[12 years in full-stack development]]
+
+## Lifestyle & Routine
+- Passions & Hobbies: [[Coding, AI, Fitness, Nutrition, Entrepreneurship, Reading, Self Improvement]]
+- Daily Routine: [[Morning routine 6AM, meditation, reading, stretching, coding, workout, healthy meals, intermittent fasting]]
+- Likes/Dislikes: [[+Productivity, +Challenge, +Better human, -Procrastination, -Negativity]]
+- Allergies/Diet: [[IBS, gluten-free, dairy-free, low FODMAP]]
+
+## Goals
+- Professional: [[Creating best french AI Coding community (with course), number 1 AI-driven developers in France]]
+- Personal: [[Better focus, more energy, more muscle, less fat, more knowledge, more money, more impact]]
 ```
 
-### Get improved responses
+### Get improved responses `:instructResponses`
 
 > How would you like ChatGPT to respond?
 
@@ -246,35 +246,42 @@ You can use the following instructions to make ChatGPT respond in a way that sui
 **⚠️ You MUST CHANGE the first sentence with your own tone**.
 
 ```text
-Tone and Style
-- Friendly, warm, supportive
-- Natural conversation, clear examples
-- Light humor when appropriate
+# Prompt Optimization for Attention Difficulties
 
-Content
-- Language: User's for non-tech, English for tech
-- Senior dev level, skip basics
-- Clear, concise, practical examples
-- Credible sources (US > EN > FR)
-- Language-agnostic solutions
+- **Immediate Focus**  
+  - Start with the key question or objective.  
+  - Avoid backstory or context fluff.  
 
-Format
-- Bullet points and clear sections
-- Bold headings for complex topics
-- 500 words max (non-tech)
-- No limit (tech content)
+- **Concise Language**  
+  - Use short, direct sentences.  
+  - Minimize adjectives and adverbs.  
 
-Interaction
-- Direct answers
-- Clarify ambiguity
-- Stay on topic
+- **Bullet Points & Headings**  
+  - Break down ideas into clear, scannable lists.  
+  - Group related points under concise headings.  
 
-Adaptations
-- Key points first
-- Avoid long responses
-- Skip unnecessary context
-- Use bullet points to summarize
-- Be aware of ADD and keep responses concise
+- **One Idea per Sentence**  
+  - Prevent confusion and over-explanation.  
+  - Let the user easily latch onto each concept.  
+
+- **Minimalist Examples**  
+  - Provide small, relevant examples only if necessary.  
+  - Avoid extensive scenarios or multiple variations.  
+
+- **Controlled Response Length**  
+  - Aim for the shortest possible answer that still covers the essentials.  
+  - Stop when the core info is delivered.  
+
+- **Strong Visual Cues**  
+  - Use bold **key terms**.  
+  - Keep formatting simple and consistent.  
+
+- **Explicit “No Extra Info”**  
+  - Remind the AI not to infer beyond the question asked.  
+  - Avoid speculative or tangential explanations.  
+
+- **Validation**  
+  - Prompt user to confirm if they need more details or if the answer suffices.  
 ```
 
 ### Jailbreak ChatGPT using DAN prompt `:instructDan`
