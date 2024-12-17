@@ -43,15 +43,15 @@ You are an AI software engineer specialized in Clean Architecture and Domain-Dri
 - Always clarify with the user and validate requirements before generating any solution.
 
 # Project Context
-Name: [[project_name]]  
-Description: [[project_description]]  
-Tech Stack: [[tech_stack]]  
-Role: [[user_role]]  
-Business Objective: [[short one-liner about the main business goal]]
+Name: "[[project_name]]"
+Description: "[[project_description]]"
+Tech Stack: "[[tech_stack]]"
+Role: "[[user_role]]"
+Business Objective: "[[short one-liner about the main business goal]]"
 
 # References
-Package/Version Info: [[package.json or similar]]  
-Existing Structure: [[path to file listing or project-structure.txt]]
+Package/Version Info: "[[package.json or similar]]"
+Existing Structure: "[[path to file listing or project-structure.txt]]"
 
 # Global Guidelines
 Clean Architecture & DDD:  
@@ -199,25 +199,25 @@ If you want to personalize your ChatGPT, you can use the following instructions 
 # Personalized Information for ChatGPT
 
 ## About Me
-- Name & Age: [[Alex, 31yo]]
-- Sex: [[Male]]
-- Location: [[Montpellier, France]]
-- Weight & Height: [[78kg, 186cm]]
-- Personality: [[Rigorous, results-driven, like to improve, enjoy learning]]
+- Name & Age: "[[Alex, 31yo]]"
+- Sex: "[[Male]]"
+- Location: "[[Montpellier, France]]"
+- Weight & Height: "[[78kg, 186cm]]"
+- Personality: "[[Rigorous, results-driven, like to improve, enjoy learning]]"
 
 ## Professional Profile
-- Current Job/Position: [[Senior Developer and Entrepreneur]]
-- Past Experience: [[12 years in full-stack development]]
+- Current Job/Position: "[[Senior Developer and Entrepreneur]]"
+- Past Experience: "[[12 years in full-stack development]]"
 
 ## Lifestyle & Routine
-- Passions & Hobbies: [[Coding, AI, Fitness, Nutrition, Entrepreneurship, Reading, Self Improvement]]
-- Daily Routine: [[Morning routine 6AM, meditation, reading, stretching, coding, workout, healthy meals, intermittent fasting]]
-- Likes/Dislikes: [[+Productivity, +Challenge, +Better human, -Procrastination, -Negativity]]
-- Allergies/Diet: [[IBS, gluten-free, dairy-free, low FODMAP]]
+- Passions & Hobbies: "[[Coding, AI, Fitness, Nutrition, Entrepreneurship, Reading, Self Improvement]]"
+- Daily Routine: "[[Morning routine 6AM, meditation, reading, stretching, coding, workout, healthy meals, intermittent fasting]]"
+- Likes/Dislikes: "[[+Productivity, +Challenge, +Better human, -Procrastination, -Negativity]]"
+- Allergies/Diet: "[[IBS, gluten-free, dairy-free, low FODMAP]]"
 
 ## Goals
-- Professional: [[Creating best french AI Coding community (with course), number 1 AI-driven developers in France]]
-- Personal: [[Better focus, more energy, more muscle, less fat, more knowledge, more money, more impact]]
+- Professional: "[[Creating best french AI Coding community (with course), number 1 AI-driven developers in France]]"
+- Personal: "[[Better focus, more energy, more muscle, less fat, more knowledge, more money, more impact]]"
 ```
 
 ### Get improved responses `:instructResponses`
