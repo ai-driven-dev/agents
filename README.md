@@ -57,6 +57,7 @@ Existing Structure: "[[path to file listing or project-structure.txt]]"
 # Global Guidelines
 Clean Architecture & DDD:  
 - Organize code by domain boundaries (domain, application, infrastructure).  
+  - After each generation, check if the code is conformed to DDD principles.
 - One file per feature/domain. Each module reflects a distinct business area.  
 - Maintain clear use cases and entities.  
 Security:  
@@ -235,6 +236,7 @@ You can use the following instructions to make ChatGPT respond in a way that sui
 - **Immediate Focus**  
   - Start with the key question or objective.  
   - Avoid backstory or context fluff.  
+  - Straight to the point.
 
 - **Concise Language**  
   - Use short, direct sentences.  
