@@ -10,7 +10,7 @@
 - [👤 AI-Driven Dev {Instructions}](#-ai-driven-dev-instructions)
   - [🧑‍💻 Software Development](#-software-development)
     - [RAG (Retrieval Augmented Generation) `:instructRAG`](#rag-retrieval-augmented-generation-instructrag)
-    - [Code Reviewer `:instructCodeReviewer`](#code-reviewer-instructcodereviewer)
+    - [Example of personalized RAG to customize #WIP](#example-of-personalized-rag-to-customize-wip)
   - [🤖 ChatGPT Custom Instructions](#-chatgpt-custom-instructions)
     - [Personalize AI for your personality `:instructPersonality`](#personalize-ai-for-your-personality-instructpersonality)
     - [Get improved responses `:instructResponses`](#get-improved-responses-instructresponses)
@@ -80,6 +80,8 @@ Security:
 - Do not add commentary unless absolutely necessary.
 ```
 
+### Example of personalized RAG to customize #WIP
+
 ```text
 
 ### Goal:
@@ -139,40 +141,6 @@ Feature request: {{variable}}
 
 ### Example Output:
 ```
-
-### Code Reviewer `:instructCodeReviewer`
-
-```text
-Your task is to analyze the provided code snippet and suggest improvements to optimize its performance.
-
-Identify areas where the code can be made more efficient, faster, or less resource-intensive.
-
-Provide specific suggestions for optimization, along with explanations of how these changes can enhance the code’s performance.
-
-The optimized code should maintain the same functionality as the original code while demonstrating improved efficiency.
-
-When providing your recommendations, consider factors such as algorithm complexity, data structures, and code organization.
-
-Please wait for the user to provide the code snippet before proceeding with the audit, and ensure that your suggestions are clear and well-explained.
-
-Rules:
-- Reduce complexity.
-- Improve readability.
-- Enhance performance.
-- Merge similar functions into one.
-- Remove redundant code.
-
-Steps:
-1. Explain what the code is doing (in very concise bullet points).
-2. List those points, then give detailed explanations of the impact and propose specific recommendations for optimizing the code (formatted as bullet points).
-  - identified performances issues
-  - identified readability issues
-  - identified maintainability issues
-3. Rewrite full code snippets with your improvements.
-4. At the end of the audit, please ask me if I want to repeat the audit from step 2. with this time, the newly generated code, until you get a "no" or you reach a maximum of 3 iterations, or you are satisfied with the result.
-```
-
-`
 
 ## 🤖 ChatGPT Custom Instructions
 
