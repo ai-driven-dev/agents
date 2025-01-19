@@ -32,4 +32,5 @@
 
 - Focus on behavior, not internal implementation
 - Avoid over-mocking external services
-- Use concise, realistic scenarios
+- Use concise, realistic scenario
+s

@@ -1,0 +1,2 @@
+// Your full project architecture:
+// use `aidd-tree` from https://github.com/ai-driven-dev/aliases if needed
