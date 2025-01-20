@@ -5,8 +5,9 @@
 - Use these “When?” sections as micro-rules for specific tasks or outputs.
 - Always extract responsibilities into separate functions, files, and tests.
 - Always ask before installing a new package.
+- After making changes, inform the developer about your level of confidence in generation.
 
-## When writing code
+## When generating code
 
 - Separate concerns into different files, functions, and tests
 - Document only complex or domain-specific flows, no inline comments if possible
@@ -23,8 +24,7 @@
 
 ## Regarding files
 
-- Use a single file per feature
-- 1 file = 1 responsibility
+- Use a single file per feature because 1 file = 1 responsibility
 - No overlapping functionality
 - Avoid duplicate code, always ask for confirmation
 
@@ -32,5 +32,4 @@
 
 - Focus on behavior, not internal implementation
 - Avoid over-mocking external services
-- Use concise, realistic scenario
-s
+- Use concise, realistic scenarios
