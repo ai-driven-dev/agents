@@ -9,7 +9,7 @@
 
 - [👤 AI-Driven Dev {Agents}](#-ai-driven-dev-agents)
   - [🧑‍💻 Software Development](#-software-development)
-    - [RAG (Retrieval Augmented Generation) `:instructRAG`](#rag-retrieval-augmented-generation-instructrag)
+    - [RAG (Retrieval Augmented Generation) `:instructAIArchitect`](#rag-retrieval-augmented-generation-instructaiarchitect)
   - [🤖 ChatGPT Custom Instructions](#-chatgpt-custom-instructions)
     - [Personalize AI for your personality `:instructPersonality`](#personalize-ai-for-your-personality-instructpersonality)
     - [Get improved responses `:instructResponses`](#get-improved-responses-instructresponses)
@@ -17,7 +17,7 @@
 
 ## 🧑‍💻 Software Development
 
-### RAG (Retrieval Augmented Generation) `:instructRAG`
+### RAG (Retrieval Augmented Generation) `:instructAIArchitect`
 
 You can personalize the AI responses to your project context.
 
