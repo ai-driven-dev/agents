@@ -9,7 +9,7 @@
 
 - [👤 AI-Driven Dev {Agents}](#-ai-driven-dev-agents)
   - [🧑‍💻 Software Development](#-software-development)
-    - [RAG (Retrieval Augmented Generation) `:instructAIArchitect`](#rag-retrieval-augmented-generation-instructaiarchitect)
+    - [AI developer agent `:instructAIArchitect`](#ai-developer-agent-instructaiarchitect)
   - [🤖 ChatGPT Custom Instructions](#-chatgpt-custom-instructions)
     - [Personalize AI for your personality `:instructPersonality`](#personalize-ai-for-your-personality-instructpersonality)
     - [Get improved responses `:instructResponses`](#get-improved-responses-instructresponses)
@@ -17,9 +17,9 @@
 
 ## 🧑‍💻 Software Development
 
-### RAG (Retrieval Augmented Generation) `:instructAIArchitect`
+### AI developer agent `:instructAIArchitect`
 
-You can personalize the AI responses to your project context.
+You can personalize the AI responses to your project context so it can act a RAG (Retrieval Augmented Generation).
 
 This code will teach the AI to answer as a developer from your project.
 
@@ -29,10 +29,10 @@ This code will teach the AI to answer as a developer from your project.
   - your role
   - tech stack
   - language specifics
-- **Additional context in knowledge base**:
-  - Project Structure (in `aidd-tree > tree.txt`)
-  - Project Tech Stack (upload `package.json` or equivalent file to extract main stacks)
-  - Coding Rules (use [Coding Rules Template](./knowledge/coding_rules.md) and customize it)
+
+- **Additional context in knowledge base TO UPDATE**:
+  - Project Structure [./ai-architect/project-structure.txt](./ai-architect/project-structure.txt)
+  - Project Tech Stack [./ai-architect/versions.jsonc](./ai-architect/versions.jsonc)
 
 ```text
 # **AI Role**  
@@ -169,6 +169,7 @@ You can use the following instructions to make ChatGPT respond in a way that sui
 
 - **Note**
   - I use vocal dictation a lot, inconsistencies may occur, please keep the discussion flow.
+  - Always answer in user's language.
 
 - **Immediate Focus**  
   - Start with the key question or objective.  
