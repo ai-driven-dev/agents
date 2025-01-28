@@ -24,6 +24,7 @@ You can personalize the AI responses to your project context so it can act a RAG
 This code will teach the AI to answer as a developer from your project.
 
 - **Additional context in knowledge base TO UPDATE**:
+  - *Every needed information for the AI to answer correctly (project name, description, documentation, README, technical constraints, etc.)*
   - Project Structure [./ai-architect/project-structure.txt](./ai-architect/project-structure.txt)
   - Project Tech Stack [./ai-architect/versions.jsonc](./ai-architect/versions.jsonc)
 
