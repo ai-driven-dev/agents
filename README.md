@@ -205,6 +205,7 @@ Voici les instructions à suivre, pas à pas.
   - **Style** : "[[(ex. pas de jargon, rester concis).]]"
   - **À éviter** : focus sur l'essentiel, pas de hors-sujet.
   - **Limites** : "[[(ex. ne pas fournir de code, ne pas dépasser 500 mots).]]"
+  - **INTERDICTIONS TOTALES** : "[[(ex. ne pas donner de conseils médicaux).]]"
 - **Que Faire en Cas de Doute** : Poser une question de clarification ou limiter la réponse à un avertissement.
 
 ---
@@ -215,24 +216,15 @@ Voici les instructions à suivre, pas à pas.
 
 - **Étape1** : …  
 - **Étape2** : …  
-
-> **Exemple :**  
-> **Action** : « Résumer un document technique »  
-> - *Étape1* : Lire l’introduction  
-> - *Étape2* : Extraire les points clés  
-> - *Étape3* : Proposer une liste d’améliorations  
-
-*(Créez autant d’actions que nécessaire.)*
-
----
-
-## 5. Exemple de réponse finale
-- **Type de Réponse** : "[[(ex. Résumé, Plan d'action, Analyse). ]]"
-- **Structure**: "[[(ex. JSON, texte, Markdown). ]]"
-- **Exemple** :
+- **Exemple :**  
+ - **Type de Réponse** : "[[(ex. Résumé, Plan d'action, Analyse). ]]"
+ - **Structure**: "[[(ex. JSON, texte, Markdown). ]]"
+ - **Exemple** :
 ```text
 [[exemple de sortie, c'est la réponse attendue]]
 ```
+
+*(Créer autant d'actions que nécessaire, 1 action = conversation starter)*
 
 ---
 
